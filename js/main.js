@@ -76,6 +76,15 @@ const FLAGSHIP_CARDS = [
     repo: "https://github.com/dev4aibots/ai-agent-system",
     demo: null,
   },
+  {
+    title: "MCP PostgreSQL Server",
+    category: "Agents & MCP",
+    description: "JSON-RPC 2.0 MCP server without the SDK. db_query, db_schema, db_tables, db_insert with parameterized queries and read-only enforcement. 12 tests.",
+    tags: ["MCP", "JSON-RPC", "PostgreSQL", "Python"],
+    status: "Live (stdio)",
+    repo: "https://github.com/dev4aibots/mcp-postgres-server",
+    demo: null,
+  },
 ];
 
 const WORKFLOW_CARDS = [
