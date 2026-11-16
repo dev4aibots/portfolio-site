@@ -58,6 +58,24 @@ const FLAGSHIP_CARDS = [
     repo: "https://github.com/dev4aibots/mcp-tool-registry",
     demo: "https://mcp-tool-registry-demo.vercel.app/tools",
   },
+  {
+    title: "Production RAG System",
+    category: "Applied AI",
+    description: "Production-grade RAG with verified citations, hybrid retrieval (dense + BM25 + RRF), reranking, eval regression gate (McNemar), and CI. 13 tests, all passing.",
+    tags: ["RAG", "Evals", "Citations", "FastAPI", "CI"],
+    status: "Live Backend",
+    repo: "https://github.com/dev4aibots/production-rag-system",
+    demo: null,
+  },
+  {
+    title: "AI Agent System",
+    category: "Agents & Automation",
+    description: "Tool-using agent with retries, idempotency keys, human-in-the-loop approval, max-step loop guard, and hash-chained audit ledger. 13 tests, all passing.",
+    tags: ["Agents", "HITL", "Idempotency", "Audit", "FastAPI"],
+    status: "Live Backend",
+    repo: "https://github.com/dev4aibots/ai-agent-system",
+    demo: null,
+  },
 ];
 
 const WORKFLOW_CARDS = [
